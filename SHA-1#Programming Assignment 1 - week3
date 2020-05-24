@@ -1,5 +1,10 @@
-## TO FIND INVERSE OF A MATRIX
-makeCacheMatrix <- function(x = matrix()) {
+## PROGRAMME ASSIGNMENT
+## GET THE VALUES OF THE MATRIX
+## SET THE VALUE OF THE MATRIX
+## FIND INVERSE OF A MATRIX
+## DEFINING THE FUNCTION TO GET INVERSE
+makeCacheMatrix <- function(x = matrix()) 
+{
   j <- NULL
   set <- function(y){
   x <<- y
